@@ -1,3 +1,7 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
 nav {
     position: absolute;
     top: 30px;
@@ -30,9 +34,9 @@ nav {
     width: 100%;
     background: rgba(54, 199, 10, 0.589);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(35, 87, 230, 0.555), rgba(54, 199, 10, 0.589));
+    background: -webkit-linear-gradient(to top right, rgba(35, 87, 230, 0.555), rgba(23, 216, 6, 0.589));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(35, 87, 230, 0.555), rgba(54, 199, 10, 0.589));
+    background: linear-gradient( 385deg, rgba(35, 87, 230, 0.555), rgba(23, 216, 6, 0.589));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     overflow: hidden;
 }
@@ -41,4 +45,50 @@ nav {
     height: 100%;
     width: 100%;
     background: rgba(24, 29, 26, .7);
+    overflow: hidden;
+}
+
+.content img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.content {
+    height: 700px;
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 160px;
+    color: white;
+}
+
+.btn {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.hbt {
+    background: none !important;
+    color: white !important;
+    border: 2px solid white !important;
+    border-radius: 25px;
+}
+
+.hd {
+    font-size: 5em;
+    font-weight: 700;
+    margin-top: -40px;
+}
+
+.hdd {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -33px;
+    margin-left: 90px;
+}
+
+.details {
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-left: 0px;
 }
